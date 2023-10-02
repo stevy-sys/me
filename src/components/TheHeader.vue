@@ -22,11 +22,11 @@
             <v-list-tile-title>PORTFOLIO</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile active-class="green--text" to="/blog">
+        <!-- <v-list-tile active-class="green--text" to="/blog">
           <v-list-tile-content>
             <v-list-tile-title>BLOG</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile>
+        </v-list-tile> -->
         <v-list-tile active-class="green--text" to="/contact">
           <v-list-tile-content>
             <v-list-tile-title>CONTACT</v-list-tile-title>
@@ -37,8 +37,8 @@
     <v-toolbar flat dense color="transparent" scroll-off-screen>
       <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="headline">
-        <span class="font-weight-light">Eldin</span>
-        <span class="green--text">Zaimovic</span>
+        <span class="font-weight-light">Stevy</span>
+        <span class="green--text">Dev</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn @click="changeTheme" depressed small icon class="hidden-md-and-up">
@@ -50,7 +50,7 @@
         <v-btn flat to="/resume" active-class="green--text headline">Resume</v-btn>
         <v-btn flat to="/services" active-class="green--text headline">Services</v-btn>
         <v-btn flat to="/portfolio" active-class="green--text headline">Portfolio</v-btn>
-        <v-btn flat to="/blog" active-class="green--text headline">Blog</v-btn>
+        <!-- <v-btn flat to="/blog" active-class="green--text headline">Blog</v-btn> -->
         <v-btn flat to="/contact" active-class="green--text headline">Contact</v-btn>
         <v-btn @click="changeTheme" depressed small icon>
           <v-icon v-if="goDark==true">fas fa-sun</v-icon>

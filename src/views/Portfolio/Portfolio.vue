@@ -24,7 +24,7 @@
 export default {
   metaInfo: {
     title: "Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Stevy dev",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
@@ -33,8 +33,8 @@ export default {
           "Eldin Zaimovic's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {
@@ -52,18 +52,14 @@ export default {
     return {
       portfolios: [
         {
-          src: "https://i.imgur.com/GvTt5GG.png",
-          title: "Web"
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01xLkQc0lLipEpNYz0u5jD23ctzXE8BowKQ&usqp=CAU",
+          title: "Front"
         },
 
         {
-          src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Video"
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXrfmIsRvC4O-c3GJmSWmGLQyQTXZUKl5gQ&usqp=CAU",
+          title: "Back"
         },
-        {
-          src: "https://i.imgur.com/g74mGuU.png",
-          title: "Graphic"
-        }
       ]
     };
   }

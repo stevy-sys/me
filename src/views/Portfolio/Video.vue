@@ -53,8 +53,8 @@ export default {
           "Eldin Zaimovic's Services Adobe Premire After Effects Video Ad's Social Media Logo Animation Instagram Facebook Video Editing Advetising"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {

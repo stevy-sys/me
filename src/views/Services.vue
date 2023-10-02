@@ -8,52 +8,36 @@
         </h2>
       </v-flex>
       <v-flex v-for="service in services" :key="service.src" xs6 sm3 md3 lg3 xl3>
-        <v-card hover flat color="transparent" :style="{'cursor':'context-menu'}">
+        <v-card hover flat color="transparent" :style="{ 'cursor': 'context-menu' }">
           <v-card-title></v-card-title>
-          <v-img
-            :src="service.src"
-            height="100"
-            aspect-ratio="2.75"
-            :alt="'Eldin do '+service.title"
-            lazy-src="https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif"
-            contain
-          ></v-img>
+          <v-img :src="service.src" height="100" aspect-ratio="2.75" :alt="'Eldin do ' + service.title"
+            lazy-src="https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif" contain></v-img>
           <v-card-title class="justify-center">
-            <v-flex text-xs-center subheading font-weight-bold>{{service.title}}</v-flex>
+            <v-flex text-xs-center subheading font-weight-bold>{{ service.title }}</v-flex>
+            <div>{{ service.description }}</div>
           </v-card-title>
         </v-card>
       </v-flex>
-      <v-flex xs12 sm12 md12 lg12 xl12>
+      <!-- <v-flex xs12 sm12 md12 lg12 xl12>
         <h2 class="pl-4">
           <span>My</span>
           <span class="green--text">Clients</span>
         </h2>
-      </v-flex>
+      </v-flex> -->
 
-      <v-flex v-for="client in clients" :key="client.src" xs6 sm4 md3 lg2 xl2>
+      <!-- <v-flex v-for="client in clients" :key="client.src" xs6 sm4 md3 lg2 xl2>
         <v-card flat :href="client.href" target="_blank" color="transparent">
           <v-hover>
-            <v-img
-              slot-scope="{ hover }"
-              :src="client.src"
-              :alt="client.name+' logo'"
-              lazy-src="https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif"
-              height="100"
-              width="160"
-              aspect-ratio="2.75"
-              contain
-            >
+            <v-img slot-scope="{ hover }" :src="client.src" :alt="client.name + ' logo'"
+              lazy-src="https://cdn.dribbble.com/users/503653/screenshots/3143656/fluid-loader.gif" height="100"
+              width="160" aspect-ratio="2.75" contain>
               <v-expand-transition>
-                <div
-                  v-if="!hover"
-                  class="transition-fast-in-fast-out green v-img--reveal"
-                  style="height: 100%;"
-                ></div>
+                <div v-if="!hover" class="transition-fast-in-fast-out green v-img--reveal" style="height: 100%;"></div>
               </v-expand-transition>
             </v-img>
           </v-hover>
         </v-card>
-      </v-flex>
+      </v-flex> -->
     </v-layout>
   </v-container>
 </template>
@@ -62,7 +46,7 @@
 export default {
   metaInfo: {
     title: "Services",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Stevy dev",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
@@ -71,8 +55,8 @@ export default {
           "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {
@@ -136,23 +120,42 @@ export default {
           href: "https://www.instagram.com/_vilashirts_/"
         }
       ],
+
       services: [
         {
-          src: "https://i.imgur.com/GvTt5GG.png",
-          title: "Web Development"
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz2vGkCemeOyt9T6_VOuN30VRrRchSruhuCw&usqp=CAU",
+          title: "CRUD Front",
+          description: "Création d'une interface utilisateur conviviale pour gérer vos données, y compris les opérations CRUD (Création, Lecture, Mise à jour, Suppression)."
         },
         {
-          src: "https://i.imgur.com/g74mGuU.png",
-          title: "Web Design"
-        },
-
-        {
-          src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Video Editing"
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiboGHnKmaMXDG_c5_35bF-OnzMNg3n_pLwg&usqp=CAU",
+          title: "CRUD Back",
+          description: "Mise en place d'un backend robuste et sécurisé pour prendre en charge les opérations CRUD, assurant la fiabilité et la sécurité de votre application."
         },
         {
-          src: "https://i.imgur.com/tcZnDep.png",
-          title: "Advertising"
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3kXP6A5LTi5vqRoquahYqQ4ydeNN4EETCSg&usqp=CAU",
+          title: "Websocket ou Socket.io",
+          description: "Intégration de WebSockets ou Socket.io pour permettre des communications en temps réel, améliorant ainsi l'interaction entre les utilisateurs."
+        },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdUUC8kMBurknY0KmQ_W0P95jKUk1OhNHk_A&usqp=CAU",
+          title: "Système de Paiement",
+          description: "Création d'un système de paiement sécurisé permettant aux utilisateurs d'effectuer des transactions en toute confiance sur votre plateforme."
+        },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMUYIu1sVBKzzavRDZSP3wDia3CsXdE4JrMA&usqp=CAU",
+          title: "Utilisation API Externe",
+          description: "Intégration d'API externes pour enrichir votre application avec des fonctionnalités supplémentaires, améliorant ainsi l'expérience utilisateur."
+        },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ118AU1Mg-Zfmk53wcNFW4HWZt2ufdwrWA1Q&usqp=CAU",
+          title: "Tests Unitaires",
+          description: "Mise en place de tests unitaires pour garantir la stabilité de votre application et détecter les erreurs potentielles tôt dans le processus de développement."
+        },
+        {
+          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4IoofCPJUbEea5ymDTiXJmvgmnkC8-aVjeg&usqp=CAU",
+          title: "Principe SOLIDE",
+          description: "Application des principes SOLID (Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) pour créer un code propre, maintenable et extensible."
         }
       ]
     };

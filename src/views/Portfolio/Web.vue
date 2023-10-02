@@ -63,8 +63,8 @@ export default {
           "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {

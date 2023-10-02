@@ -3,28 +3,28 @@
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md6 lg6 xl6>
         <h2 class="pb-4 mt-2">
-          <span>GetIn</span>
-          <span class="green--text">Touch</span>
+          <span>Contact</span>
+          <span class="green--text">Me</span>
         </h2>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-map-marker-alt</v-icon>
-          <span>Doboj,&nbsp;</span>
-          <span class="green--text">Bosnia & Herzegovina</span>
+          <span>Antananarivo,&nbsp;</span>
+          <span class="green--text">Madagascar</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>eldin@</span>
-          <span class="green--text">zaimovic.com</span>
+          <span>stevyralambomanana@</span>
+          <span class="green--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+387&nbsp;</span>
-          <span class="green--text">61 596 676</span>
+          <span>+261&nbsp;</span>
+          <span class="green--text">345251717</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-check</v-icon>
-          <span>Freelance</span>
-          <span class="green--text">Available</span>
+          <span>Freelance/CDI/CDD</span>
+          <span class="green--text"> Disponible</span>
         </div>
       </v-flex>
 
@@ -34,7 +34,7 @@
           <span class="green--text">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
+        <form @submit.prevent="submit()">
           <v-text-field
             name="name"
             color="green"
@@ -100,8 +100,8 @@ export default {
           "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {
@@ -131,6 +131,10 @@ export default {
   methods: {
     submit() {
       this.$v.$touch();
+      alert('message envoyer avec success')
+      this.name = "";
+      this.email = "";
+      this.body = "";
     },
     clear() {
       this.$v.$reset();

@@ -57,6 +57,18 @@ export default new Router({
         import( /* webpackChunkName: "about" */ "./views/Portfolio/Video.vue")
     },
     {
+      path: "/portfolio/front",
+      name: "frontPortfolio",
+      component: () =>
+        import( /* webpackChunkName: "about" */ "./views/Portfolio/Front.vue")
+    },
+    {
+      path: "/portfolio/back",
+      name: "frontPortfolio",
+      component: () =>
+        import( /* webpackChunkName: "about" */ "./views/Portfolio/Back.vue")
+    },
+    {
       path: "/portfolio/graphic",
       name: "graphicPortfolio",
       component: () =>

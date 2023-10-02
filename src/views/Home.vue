@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Eldin Zaimovic"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Stevy Dev"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -48,13 +48,7 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Eldin Zaimovic. I'm a front-end developer who
-                is passionate about
-                <span
-                  class="green--text font-weight-bold"
-                >VUE</span>, building great user experiences,
-                fighting for simplicity over complexity and constantly learning.
-                When I'm not coding or making videos, you'll find me traveling across Europe.
+                Je suis Stevy Dev, un passionné de développement fullstack autodidacte. Ma quête constante d'apprentissage m'a permis de maîtriser PHP, JavaScript, et bien d'autres technologies. Je crée des applications innovantes en mettant l'accent sur la résolution de problèmes et l'expérience utilisateur. Ma communication efficace et ma collaboration en équipe font partie intégrante de mon approche. Je suis déterminé à repousser les limites et à contribuer au monde dynamique du développement web et logiciel.
               </p>
             </div>
           </div>
@@ -87,7 +81,7 @@
             :href="icon.href"
             target="_blank"
           >
-            <v-icon dark>{{icon.icon}}</v-icon>
+            <v-icon >{{icon.icon}}</v-icon>
           </v-btn>
         </v-card-actions>
       </v-card>
@@ -102,13 +96,13 @@ import VueCompareImage from "vue-compare-image";
 export default {
   metaInfo: {
     title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Stevy-dev",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "description", content: "Eldin Zaimovic's Portfolio" },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Stevy dev" },
+      { property: "og:site_name", content: "Stevy dev" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://eldin.space" },
       {
@@ -127,25 +121,23 @@ export default {
       icons: [
         { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
         {
-          href: "https://stackoverflow.com/users/story/9660700",
-          icon: "fab fa-stack-overflow"
+          href: "https://www.facebook.com/EldinVasVoli",
+          icon: "fab fa-facebook-f"
         },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
+        {
+          href: "https://www.facebook.com/EldinVasVoli",
+          icon: "fab fa-google"
+        },
+        {
+          href: "https://www.facebook.com/EldinVasVoli",
+          icon: "fab fa-whatsapp"
+        },
         {
           href: "https://www.linkedin.com/in/eldin-zaimovic",
           icon: "fab fa-linkedin-in"
         },
-        {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
-          icon: "fab fa-xing"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-facebook-f"
-        },
-        { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
       ],
-      text1: ["Front-End Developer", "Web Developer", "Web Designer"],
+      text1: ["Front-End Developer", "Back-End Developer"],
       leftImage: "https://i.imgur.com/bU50uS9.jpg",
       rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
       leftImage2: "https://i.imgur.com/SXBitjh.jpg",
