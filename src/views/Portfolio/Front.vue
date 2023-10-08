@@ -119,15 +119,15 @@
           {
             dialog: false,
             title: "Chat Apps",
-            git: "https://github.com/stevy-sys/chat-api.git",
-            demo: "https://chat.rubycorp.fr/documentation",
+            git: "https://github.com/stevy-sys/chat-vue",
+            demo: "https://chat-vue-six.vercel.app/",
             tech: [
               "VueJS 3",
               "Laravel-echo ",
               "VueX",
               "pusherJS",
             ],
-            poster: "/port/chatapi.JPG",
+            poster: "/port/chatfront.JPG",
             description:[
                 "Chat message user ",
                 "conversation groupe / conversation prive / message / presence en ligne / temp reelle"
