@@ -154,14 +154,14 @@
             dialog: false,
             title: "ShareMyHobbies",
             git: "",
-            demo: "https://noah-voyages.com/",
+            demo: "https://sharemyhobbies.com/",
             tech: [
               "Vue2",
               "VueX",
               "laravel-echo",
               "pusherJS",
             ],
-            poster: "/port/noah.JPG",
+            poster: "/port/share.JPG",
             description:[
                 "Apps Reseau socio pour les Hobbies ",
                 "amis / actualite / commentaire / reaction / profile / groupe / chat / evenement / parametre / appel-video"
