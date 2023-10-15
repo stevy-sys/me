@@ -119,21 +119,21 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "https://github.com/stevy-sys", icon: "fab fa-github" },
         {
-          href: "https://www.facebook.com/EldinVasVoli",
+          href: "https://ww.facebook.com/stevytsihoarana",
           icon: "fab fa-facebook-f"
         },
+        // {
+        //   href: "https://www.facebook.com/EldinVasVoli",
+        //   icon: "fab fa-google"
+        // },
+        // {
+        //   href: "https://www.facebook.com/EldinVasVoli",
+        //   icon: "fab fa-whatsapp"
+        // },
         {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-google"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-whatsapp"
-        },
-        {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
+          href: "https://www.linkedin.com/in/stevy-ralambomanana-2b6896210/",
           icon: "fab fa-linkedin-in"
         },
       ],
