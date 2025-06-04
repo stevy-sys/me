@@ -124,6 +124,12 @@ export default {
       interval: 0,
       education:[
         {
+          date_start:"2025",
+          date_end:"en cour",
+          title:"License III en informatique de Gestion  ",
+          description:"CNTMAD"
+        },
+        {
           date_start:"2020",
           date_end:"2021 ",
           title:"License II en informatique de Gestion  ",
@@ -144,8 +150,15 @@ export default {
       ],
       experience:[
         {
-          date_start:"05/02/2023 ",
+          date_start:"02/2024 ",
           date_end:"",
+          title:" Conception et développement de l’application",
+          technologie:"Laravel , VueJS ",
+          description:"Simplimmo.fr "
+        },
+        {
+          date_start:"05/02/2023 ",
+          date_end:"02/2024",
           title:" Développeur Front-End Télétravail",
           technologie:"VueJS ",
           description:" Application de rencontre rubycorp.fr "
